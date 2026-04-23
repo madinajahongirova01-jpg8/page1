@@ -132,46 +132,97 @@
             </div>
         </div>
     </main>
-    <div style="display: flex; gap: 50px; padding: 40px; font-family: sans-serif; max-width: 1000px; margin: auto;">
-    
-    <!-- Левая часть -->
-    <div style="flex: 1;">
-        <h1 style="font-size: 32px; margin: 0;">Frequently Asked <br><span style="color: #24AB70;">Questions</span></h1>
-        <p style="color: #666; margin-top: 20px;">You can book massages 7 days a week from 6 am to 11 pm, including public holidays.</p>
-    </div>
-
-    <!-- Правая часть (Аккордеон) -->
-    <div style="flex: 1.5; display: flex; flex-direction: column; gap: 15px;">
-        
-        <details open style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <summary style="font-weight: bold; cursor: pointer; display: flex; justify-content: space-between; align-items: center; list-style: none;">
-                How Far Is Nearset Bus Station ?
-                <span>&#8963;</span>
-            </summary>
-            <p style="color: #777; font-size: 14px; line-height: 1.6; margin-top: 10px;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+    <div class="flex gap-[50px] p-[40px] font-sans max-w-[1000px] mx-auto">
+        <div class="flex-1">
+            <h1 class="text-[32px] font-bold leading-tight">
+                Frequently Asked <br>
+                <span class="text-[#24AB70]">Questions</span>
+            </h1>
+            <p class="text-[#666] mt-[20px]">
+                You can book massages 7 days a week from 6 am to 11 pm, including public holidays.
             </p>
-        </details>
+        </div>
+        <div class="flex-[1.5] flex flex-col gap-[15px]">
 
-        <details style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-            <summary style="font-weight: bold; cursor: pointer; display: flex; justify-content: space-between; align-items: center; list-style: none;">
-                Why this project is better than others ?
-                <span>&#8964;</span>
-            </summary>
-            <p style="color: #777; margin-top: 10px;">Ответ здесь...</p>
-        </details>
+            <div class="border border-[#ddd] rounded-[8px] p-[20px] shadow-md">
+                <div class="flex justify-between items-center font-bold cursor-pointer">
+                    How Far Is Nearset Bus Station ?
+                    <span>^</span>
+                </div>
+                <p class="text-[#777] text-[14px] mt-[15px] leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip.
+                </p>
+            </div>
+            <div class="border border-[#ddd] rounded-[8px] p-[20px]">
+                <div class="flex justify-between items-center font-bold cursor-pointer">
+                    Why this project is better than others ?
+                    <span>∨</span>
+                </div>
+            </div>
+            <div class="border border-[#ddd] rounded-[8px] p-[20px]">
+                <div class="flex justify-between items-center font-bold cursor-pointer">
+                    Estimated time of completion ?
+                    <span>∨</span>
+                </div>
+            </div>
 
-        <details style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-            <summary style="font-weight: bold; cursor: pointer; display: flex; justify-content: space-between; align-items: center; list-style: none;">
-                Estimated time of completion ?
-                <span>&#8964;</span>
-            </summary>
-            <p style="color: #777; margin-top: 10px;">Ответ здесь...</p>
-        </details>
-
+        </div>
     </div>
-</div>
-
+    <main class="bg-[#F4FBF8]  rounded-[70px] max-w-[1200px] m-auto mb-[50px] px-[20px] lg:px-0">
+        <div class="flex flex-col lg:flex-row items-center justify-between">
+            <img class="w-full lg:w-[600px] mt-6 lg:mt-0 rounded-[20px] lg:rounded-none"
+                src="../src/img/Perfect Place 1.png" alt="">
+            <div class="flex flex-col gap-[30px]">
+                <p class="w-full lg:w-[540px] text-[32px] lg:text-[44px] font-semibold leading-tight">Discover our
+                    History</p>
+                <p class="w-full lg:w-[550px] font-normal text-[#555555] text-[18px] lg:text-[20px]">Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                <p class="w-full lg:w-[550px] font-normal text-[#555555] text-[18px] lg:text-[20px]">Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <button class="w-[164px] h-[56px] bg-[#24AB70] text-[white] rounded-[35px]">View All</button>
+            </div>
+        </div>
+    </main>
+    <div class="max-w-[1200px] m-auto">
+        <img class="w-[1080px] h-[500px]" src="../src/img/Company location & contact.png" alt="">
+    </div>
+    <footer class="max-w-[1200px] m-auto p-10 mt-[50px]">
+        <div class="flex flex-col lg:flex-row justify-between lg:items-center gap-12 lg:gap-0">
+            <div class="flex flex-col gap-6 lg:w-1/4">
+                <p class="text-base text-gray-600">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <div class="flex gap-5">
+                    <img src="../src/img/Group 23.png" alt="" class="w-5 h-5">
+                    <img src="../src/img/Group 24.png" alt="" class="w-5 h-5">
+                    <img src="../src/img/search 1.png" alt="" class="w-5 h-5">
+                </div>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-24">
+                <div class="flex flex-col gap-4 text-gray-600">
+                    <h3 class="text-xl font-bold text-slate-900">Home</h3>
+                    <p>Booking</p>
+                    <p>Facilities</p>
+                    <p>Location</p>
+                    <p>Contact</p>
+                </div>
+                <div class="flex flex-col gap-4 text-gray-600">
+                    <h3 class="text-xl font-bold text-slate-900">Help</h3>
+                    <p>About Us</p>
+                    <p>Help center</p>
+                    <p>Privacy policy</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="flex flex-col gap-4 text-gray-600">
+                    <h3 class="text-xl font-bold text-slate-900">Get the app</h3>
+                    <p>iOS app</p>
+                    <p>Android app</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
